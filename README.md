@@ -1,6 +1,8 @@
-# LibPtyhonPro
-Módulo para exemplificar a construção de Projetos Python no curso Pytools
+# libpythonpro
 
-Nesse Curso é ensinado como contribuir com Projetos OPEN SOURCE
+Módulo para exemplificar construção de projetos Python no curso PyTools
 
-Link para o Curso [Python Pro](https://pythonpro.com.br/)
+Nesse curso é ensinado como contribuir com projetos de Open Source
+
+Link para o curso [Python Pro](https://pythonpro.com.br/)
+
