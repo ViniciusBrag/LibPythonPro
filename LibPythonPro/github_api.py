@@ -14,6 +14,6 @@ def buscar_avatar(usuario):
 
 
 if __name__ == '__main__':
-    print('--' * 30)
+    print('--' * 35)
     print(buscar_avatar('ViniciusBrag'))
-    print('--' * 30)
+    print('--' * 35)
