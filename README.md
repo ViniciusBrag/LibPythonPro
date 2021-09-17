@@ -6,7 +6,8 @@ Nesse curso é ensinado como contribuir com projetos de Open Source
 
 Link para o curso [Python Pro](https://pythonpro.com.br/)
 
-[![Build Status](https://app.travis-ci.com/ViniciusBrag/LibPtyhonPro.svg?branch=main)](https://app.travis-ci.com/ViniciusBrag/LibPtyhonPro)
+[![Updates](https://pyup.io/repos/github/ViniciusBrag/LibPtyhonPro/shield.svg)](https://pyup.io/repos/github/ViniciusBrag/LibPtyhonPro/)
+[![Python 3](https://pyup.io/repos/github/ViniciusBrag/LibPtyhonPro/python-3-shield.svg)](https://pyup.io/repos/github/ViniciusBrag/LibPtyhonPro/)
 
 Suportada versão 3 de Python
 
