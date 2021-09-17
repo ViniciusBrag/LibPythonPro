@@ -1,9 +1,16 @@
-language: python
-python:
-  - 3.9
-  - 2.7
-install:
-  - pip -r requirements-dev.txt
-script:
-  - flake8
-
+{
+  "language": "python",
+  "os": [
+    "linux"
+  ],
+  "dist": "xenial",
+  "python": [
+    "3.9"
+  ],
+  "install": [
+    "pip -r requirements-dev.txt"
+  ],
+  "script": [
+    "flake8"
+  ]
+}
