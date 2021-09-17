@@ -12,9 +12,16 @@ Suportada versão 3 de Python
 
 Para instalar:
 ```Console
+#for Linux
 python3 -m venv .venv
 source .venv/bin/activate
 pip install - r requirements-dev.txt
+
+#for windows
+venv\Scripts\activate
+python3 -m venv .venv
+pip install - r requirements-dev.txt
+
 ```
 Para conferir a qualidade do código:
 
