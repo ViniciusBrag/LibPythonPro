@@ -5,6 +5,7 @@ import sys
 from distutils.util import convert_path
 from fnmatch import fnmatchcase
 from setuptools import setup, find_packages
+from os import path
 
 
 def read(fname):
@@ -68,7 +69,7 @@ def find_package_data(
                         break
                 if bad_name:
                     continue
-                if (os.path.isfile(os.path.join(fn, "LibPythonPro/__init__.py"))
+                if (os.path.isfile(os.path.join(fn, "__init__.py"))
                         and not prefix):
                     if not package:
                         new_package = name
@@ -95,22 +96,26 @@ def find_package_data(
 
 
 PACKAGE = "LibPythonPro"
-NAME = PACKAGE
+NAME = "libpythonpro_braga"
 DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools"
 AUTHOR = "Vinicius Braga"
-AUTHOR_EMAIL = "vbragadev@gmail.com"
+AUTHOR_EMAIL = "Vbragadev@gmail.com"
 URL = "https://github.com/ViniciusBrag/LibPythonPro"
 VERSION = __import__(PACKAGE).__version__
+
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
 
 setup(
     name=NAME,
     version=VERSION,
     description=DESCRIPTION,
-    long_description=read('README.md'),
+    long_description=long_description,
     long_description_content_type='text/markdown',
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
-    license=read('LICENSE'),
+    license="GNU AFFERO GENERAL PUBLIC LICENSE",
     url=URL,
     packages=find_packages(exclude=["tests.*", "tests"]),
     package_data=find_package_data(PACKAGE, only_in_packages=False),
