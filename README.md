@@ -18,13 +18,13 @@ Para instalar:
 
 python3 -m venv .venv
 source .venv/bin/activate
-pip install - r requirements-dev.txt
+pip install -r requirements-dev.txt
 
 #for windows
 
 venv\scripts\activate
 python3 -m venv .venv
-pip install - r requirements-dev.txt
+pip install -r requirements-dev.txt
 
 ```
 Para conferir a qualidade do código:
