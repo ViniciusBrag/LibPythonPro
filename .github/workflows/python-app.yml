@@ -32,10 +32,6 @@ jobs:
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Rodar Testes Automáticos
-      run: |
-        pytest LibPythonPro --cov=LibPythonPro
-    - name: Relatório Coverage
-      env:
-        CODECOV_TOKEN: "TOKEN_CODECOV"
-      run: |
-        codecov
+      run:  pip install pytest
+    pip install pytest-cov
+    pytest LibPythonPro/ --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
