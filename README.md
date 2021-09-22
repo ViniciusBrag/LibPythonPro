@@ -8,7 +8,7 @@ Link para o curso [Python Pro](https://pythonpro.com.br/)
 
 [![Updates](https://pyup.io/repos/github/ViniciusBrag/LibPythonPro/shield.svg)](https://pyup.io/repos/github/ViniciusBrag/LibPythonPro/)
 [![Python 3](https://pyup.io/repos/github/ViniciusBrag/LibPythonPro/python-3-shield.svg)](https://pyup.io/repos/github/ViniciusBrag/LibPythonPro/)
-
+[![codecov](https://codecov.io/gh/ViniciusBrag/LibPythonPro/branch/main/graph/badge.svg?token=N050W2BREZ)](https://codecov.io/gh/ViniciusBrag/LibPythonPro)
 
 Suportada versão 3 de Python
 
