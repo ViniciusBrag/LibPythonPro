@@ -1,5 +1,7 @@
 from LibPythonPro.spam.main import EnviadorSpam
 from LibPythonPro.spam.sent_email import Sent
+from LibPythonPro.tests.test_spam.confteste import *
+
 
 
 def test_qde_spam(sessao):

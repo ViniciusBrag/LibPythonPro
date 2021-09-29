@@ -3,7 +3,7 @@ import pytest
 from LibPythonPro.spam.data_base import Conexao
 
 
-@pytest.fixture( scope='session')
+@pytest.fixture(scope='session')
 def conexao():
     # Na função que foi parametrizado(conexao).A fixture vai buscar a função que tem o mesmo nome se houver,
     # e vai produzir o objeto do tipo conexão , ou seja ai reproduzir a Classe de mesmo nome , que se encontra em
