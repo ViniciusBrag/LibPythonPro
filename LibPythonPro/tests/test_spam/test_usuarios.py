@@ -7,7 +7,7 @@ def test_salvar_usuario(sessao):
     # setup
     usuario = Usuario(nome='Vinicius', email='Vbragadev@gmail.com')
     sessao.salvar(usuario)
-    assert isinstance(usuario.id, int)
+    assert isinstance(usuario.id, int) #instância do classe usuário e que retorne um tipo inteiro.
 
 
 
